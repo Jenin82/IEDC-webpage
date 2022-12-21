@@ -30,8 +30,13 @@ h2{
 	font-size: 5em !important;
 }
 
-.para,p{
+#para p{
 	font-size: 1.2em !important;
+}
+
+#para{
+	background-image: url(texture.png); 
+	background-repeat:repeat;
 }
 
 img{
@@ -47,4 +52,18 @@ img{
 .navbar{
 	background-color: white;
 	box-shadow: 0 10px 28px #00000025;
+}
+
+#contact{
+	padding: 3em;
+	text-align: center;
+	justify-content: center;
+}
+
+#event,#acheivements{
+	text-align: center;
+}
+
+#con{
+	padding: 2em;
 }
